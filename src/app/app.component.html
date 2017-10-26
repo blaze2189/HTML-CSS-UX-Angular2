@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<figure><!--https://i.ytimg.com/vi/Ciu7fijZq44/maxresdefault.jpg-->
+    <img src="./image/fall.jpg" alt="fall"/>
+    <figcaption>esta es una figcaption</figcaption>
+</figure>
+<audio src="./audio/exAudio.wav" type="audio/wav" controls="controls"></audio>
+<video src="./video/samplevideo.mp4" type="video/mp4" controls="controls"></video>
+<input type="text" [(ngModel)]="wi"/><label>{{fullCodeVideo}}</label>
+<input type="text" [(ngModel)]="hi"/><label>{{fullCodeVideo}}</label>
+<label>{{wi}}x{{hi}}</label>
+<iframe width="{{wi}}}" height="{{hi}}" src="https://www.youtube.com/embed/xSZkMTM5gag" frameborder="0" allowfullscreen></iframe>
