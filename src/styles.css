@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+header{
+  width:100%;
+  background: red;
+  height: 50px;
+}
+app-root{
+  background: blue;
+}
+aside{
+    background: green;
+}
+iframe{
+  width: 560px;
+  height: 315px;
+}
