@@ -4,8 +4,32 @@ header{
   background: red;
   height: 50px;
 }
-app-root{
-  background: blue;
+header h2, h3{
+  color: green;
+}
+p{
+  color: red;
+}
+p#media{
+  color: purple;
+}
+.prueba{
+  color: gray;
+}
+.big{
+  font-size: 20px;
+}
+/*adyacent*/
+/*p+p{
+  font-weight: bolder;
+}*/
+/*child*/
+section > p{
+  color: blue;
+}
+/*borthers*/
+p ~ p{
+  color: purple;
 }
 aside{
     background: green;
